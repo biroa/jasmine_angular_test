@@ -21,7 +21,7 @@ module.exports = function(config) {
         './app/services/users/users.js',                                 // our Users factory
         './app/components/users/users.js',                               // our Users component
         './app/app.js',                                                  // our angular app
-        './app/services/users/users.spec.js'                             // our test file for our Users factor
+        './app/services/users/users.spec.js',                            // our test file for our Users factor
         './app/components/users/users.spec.js'                           // our test file for our Users component
 
     ],
