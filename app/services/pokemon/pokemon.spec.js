@@ -19,7 +19,7 @@ describe('Pokemon factory', function() {
   // Add new mocked Pokéapi response
   var RESPONSE_ERROR = {
     'detail': 'Not found.'
-  };
+}
 
 
   beforeEach(angular.mock.module('api.pokemon'));
@@ -89,7 +89,7 @@ describe('Pokemon factory', function() {
 
 
       expect(Pokemon.findByName).toHaveBeenCalledWith(search);
-      expect(result.detail).toEqual("Not found.");
+      expect(result.detail).toEqual('Not found.');
     });
   })
 });
